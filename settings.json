@@ -1,0 +1,67 @@
+{
+    "python.pythonPath": "C:\\Python37\\python.exe",
+    "workbench.colorTheme": "Dracula",
+    "python.jediEnabled": true,
+    "[python]": {
+        
+    },
+    "python.linting.pylintArgs": [
+        "--enable=W0614",
+        "--disable=C0301",
+        "--disable=C0303",
+        "--disable=C0325",
+        "--disable=W0703",
+        "--enable=W0612",
+        "--disable=C0111",
+        "--disable=C0413",
+        "--disable=C0411",
+        "--disable=C0103",
+        "--disable=C0330",
+        "--disable=W0312",
+        "--disable=C0304",
+        "--disable=W1401",
+        "--disable=W0311"
+    ],
+    "python.linting.pylintEnabled": true,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.scrollback": 50000,
+    "mssql.connections": [
+        {
+            "server": "fs-fin-sql-gen-nonp.database.windows.net",
+            "database": "",
+            "authenticationType": "SqlLogin",
+            "user": "service_automation",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "Automation Service Account"
+        }
+    ],
+    "git.autofetch": true,
+    "bracketPairColorizer.forceUniqueOpeningColor": false,
+    "todohighlight.keywords": [
+        {
+            "text": "TODO:",
+            "backgroundColor": "rgba(255,153,51,1)",
+            "color": "#FFFFFF"
+        },
+        "FIXME:",
+        {
+            "text": "NOTE:",
+            "backgroundColor": "rgba(214,224,226,1)"
+        },
+        {
+            "text": "WORKING!",
+            "backgroundColor": "rgba(1,201,16,1)",
+            "color": "#FFFFFF"
+        }
+    ],
+    "terminal.integrated.shell.windows": "C:\\windows\\System32\\cmd.exe",
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "userSecrets.ask": false,
+    "azure.resourceFilter": [
+        "0159e9d0-09a0-4edf-96ba-a3deea363c28/1c563928-1088-41a2-a943-7d4d343040c1"
+    ]
+}

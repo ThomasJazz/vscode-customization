@@ -20,24 +20,20 @@
         "--disable=W0312",
         "--disable=C0304",
         "--disable=W1401",
-        "--disable=W0311"
+        "--disable=W0311",
+        "--disable=C0121",
+        "--disable=W0123",
+        "--disable=W0614",
+        "--disable=C0302",
+        "--disable=C0412",
+        "--disable=C0200",
+        "--disable=W0401",
+        "--disable=W0621"
     ],
     "python.linting.pylintEnabled": true,
     "window.zoomLevel": 0,
     "workbench.iconTheme": "material-icon-theme",
     "terminal.integrated.scrollback": 50000,
-    "mssql.connections": [
-        {
-            "server": "fs-fin-sql-gen-nonp.database.windows.net",
-            "database": "",
-            "authenticationType": "SqlLogin",
-            "user": "service_automation",
-            "password": "",
-            "emptyPasswordInput": false,
-            "savePassword": true,
-            "profileName": "Automation Service Account"
-        }
-    ],
     "git.autofetch": true,
     "bracketPairColorizer.forceUniqueOpeningColor": false,
     "todohighlight.keywords": [
@@ -55,12 +51,21 @@
             "text": "WORKING!",
             "backgroundColor": "rgba(1,201,16,1)",
             "color": "#FFFFFF"
+        },
+        {
+            "text": "REMOVE",
+            "backgroundColor": "rgba(198,0,5,1)",
+            "color": "#FFFFFF"
+        },
+        {
+            "text": "CHANGE",
+            "backgroundColor": "rgba(255,255,13,1)",
+            "color": "#0f8080"
         }
     ],
     "terminal.integrated.shell.windows": "C:\\windows\\System32\\cmd.exe",
     "typescript.referencesCodeLens.showOnAllFunctions": true,
     "typescript.referencesCodeLens.enabled": true,
-    "userSecrets.ask": false,
     "azure.resourceFilter": [
         "0159e9d0-09a0-4edf-96ba-a3deea363c28/1c563928-1088-41a2-a943-7d4d343040c1"
     ]

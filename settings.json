@@ -5,6 +5,9 @@
     "[python]": {
         
     },
+    "[plaintext]": {
+        "editor.wordWrap": "on"
+    },
     "python.linting.pylintArgs": [
         "--enable=W0614",
         "--disable=C0301",
@@ -58,15 +61,24 @@
             "color": "#FFFFFF"
         },
         {
-            "text": "CHANGE",
+            "text": "CHANGE:",
             "backgroundColor": "rgba(255,255,13,1)",
             "color": "#0f8080"
         }
     ],
-    "terminal.integrated.shell.windows": "C:\\windows\\System32\\cmd.exe",
+    "terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "typescript.referencesCodeLens.showOnAllFunctions": true,
     "typescript.referencesCodeLens.enabled": true,
     "azure.resourceFilter": [
         "0159e9d0-09a0-4edf-96ba-a3deea363c28/1c563928-1088-41a2-a943-7d4d343040c1"
+    ],
+    "python.languageServer": "Jedi",
+    "git.ignoreWindowsGit27Warning": true,
+    "azureFunctions.showCoreToolsWarning": false,
+    "powershell.powerShellAdditionalExePaths": [
+        {
+            "exePath": "C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe",
+            "versionName": "V1"
+        }
     ]
 }

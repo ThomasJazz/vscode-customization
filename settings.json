@@ -31,7 +31,8 @@
         "--disable=C0412",
         "--disable=C0200",
         "--disable=W0401",
-        "--disable=W0621"
+        "--disable=W0621",
+        "--extension-pkg-whitelist=pyodbc"
     ],
     "python.linting.pylintEnabled": true,
     "window.zoomLevel": 0,
@@ -66,21 +67,6 @@
             "color": "#0f8080"
         }
     ],
-    "terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "typescript.referencesCodeLens.showOnAllFunctions": true,
-    "typescript.referencesCodeLens.enabled": true,
-    "azure.resourceFilter": [
-        "0159e9d0-09a0-4edf-96ba-a3deea363c28/1c563928-1088-41a2-a943-7d4d343040c1"
-    ],
-    "python.languageServer": "Jedi",
     "git.ignoreWindowsGit27Warning": true,
-    "azureFunctions.showCoreToolsWarning": false,
-    "powershell.powerShellAdditionalExePaths": [
-        {
-            "exePath": "C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe",
-            "versionName": "V1"
-        }
-    ],
-    "omnisharp.path": "latest",
-    "omnisharp.useGlobalMono": "always"
+    "python.languageServer": "Jedi"
 }

@@ -42,17 +42,17 @@
     "todohighlight.isCaseSensitive": true,
     "todohighlight.keywords": [
         {
-            "text": "TODO",
+            "text": "TODO:",
             "backgroundColor": "rgba(255,153,51,1)",
             "color": "#FFFFFF"
         },
         "FIXME",
         {
-            "text": "NOTE",
+            "text": "NOTE:",
             "backgroundColor": "rgba(214,224,226,1)"
         },
         {
-            "text": "WORKING!",
+            "text": "WORKING",
             "backgroundColor": "rgba(1,201,16,1)",
             "color": "#FFFFFF"
         },

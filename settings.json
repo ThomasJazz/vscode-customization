@@ -35,20 +35,20 @@
         "--extension-pkg-whitelist=pyodbc"
     ],
     "python.linting.pylintEnabled": true,
-    "window.zoomLevel": 0,
     "workbench.iconTheme": "material-icon-theme",
     "terminal.integrated.scrollback": 50000,
     "git.autofetch": true,
     "bracketPairColorizer.forceUniqueOpeningColor": false,
+    "todohighlight.isCaseSensitive": true,
     "todohighlight.keywords": [
         {
-            "text": "TODO:",
+            "text": "TODO",
             "backgroundColor": "rgba(255,153,51,1)",
             "color": "#FFFFFF"
         },
-        "FIXME:",
+        "FIXME",
         {
-            "text": "NOTE:",
+            "text": "NOTE",
             "backgroundColor": "rgba(214,224,226,1)"
         },
         {
@@ -62,11 +62,23 @@
             "color": "#FFFFFF"
         },
         {
-            "text": "CHANGE:",
+            "text": "CHANGE",
             "backgroundColor": "rgba(255,255,13,1)",
             "color": "#0f8080"
+        },
+        {
+            "text": "ENDING",
+            "backgroundColor": "rgba(40,42,54,0)",
+            "color": "#ff79c6"
         }
     ],
     "git.ignoreWindowsGit27Warning": true,
-    "python.languageServer": "Jedi"
+    "python.languageServer": "Jedi",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "azureFunctions.showCoreToolsWarning": false
 }

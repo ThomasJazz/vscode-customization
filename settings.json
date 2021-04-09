@@ -1,7 +1,6 @@
 {
     "python.pythonPath": "C:\\Python37\\python.exe",
     "workbench.colorTheme": "Dracula",
-    "python.jediEnabled": true,
     "[python]": {
         
     },
@@ -43,33 +42,43 @@
     "todohighlight.keywords": [
         {
             "text": "TODO:",
-            "backgroundColor": "rgba(255,153,51,1)",
-            "color": "#FFFFFF"
+            "backgroundColor": "#ffb86c",
+            "color": "#f8f8f2"
         },
-        "FIXME",
+        {
+            "text": "FIXME:",
+            "backgroundColor": "#8be9fd",
+            "color": "#ff79c6"
+        },
         {
             "text": "NOTE:",
-            "backgroundColor": "rgba(214,224,226,1)"
+            "backgroundColor": "#f8f8f2",
+            "color": "#6272a4"
         },
         {
-            "text": "WORKING",
-            "backgroundColor": "rgba(1,201,16,1)",
-            "color": "#FFFFFF"
+            "text": "WORKING:",
+            "backgroundColor": "#50fa7b",
+            "color": "#44475a"
         },
         {
-            "text": "REMOVE",
-            "backgroundColor": "rgba(198,0,5,1)",
-            "color": "#FFFFFF"
+            "text": "REMOVE:",
+            "backgroundColor": "#ff5555",
+            "color": "#f8f8f2"
         },
         {
-            "text": "CHANGE",
-            "backgroundColor": "rgba(255,255,13,1)",
+            "text": "CHANGE:",
+            "backgroundColor": "#f1fa8c",
             "color": "#0f8080"
         },
         {
-            "text": "ENDING",
-            "backgroundColor": "rgba(40,42,54,0)",
-            "color": "#ff79c6"
+            "text": "ENDING:",
+            "backgroundColor": "#ff79c6",
+            "color": "#f8f8f2"
+        },
+        {
+            "text": "DEBUG:",
+            "backgroundColor": "#bd93f9",
+            "color": "#f1fa8c"
         }
     ],
     "git.ignoreWindowsGit27Warning": true,

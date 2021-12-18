@@ -1,7 +1,6 @@
 {
     "python.pythonPath": "C:\\Users\\Thomas\\Documents\\Python37\\python.exe",
     "workbench.colorTheme": "Dracula",
-    "python.jediEnabled": true,
     "[python]": {
         
     },
@@ -31,56 +30,64 @@
         "--disable=C0412",
         "--disable=C0200",
         "--disable=W0401",
-        "--disable=W0621"
+        "--disable=W0621",
+        "--extension-pkg-whitelist=pyodbc"
     ],
     "python.linting.pylintEnabled": true,
-    "window.zoomLevel": 0,
     "workbench.iconTheme": "material-icon-theme",
     "terminal.integrated.scrollback": 50000,
     "git.autofetch": true,
     "bracketPairColorizer.forceUniqueOpeningColor": false,
+    "todohighlight.isCaseSensitive": true,
     "todohighlight.keywords": [
         {
             "text": "TODO:",
-            "backgroundColor": "rgba(255,153,51,1)",
-            "color": "#FFFFFF"
+            "backgroundColor": "#ffb86c",
+            "color": "#f8f8f2"
         },
-        "FIXME:",
+        {
+            "text": "FIXME:",
+            "backgroundColor": "#8be9fd",
+            "color": "#ff79c6"
+        },
         {
             "text": "NOTE:",
-            "backgroundColor": "rgba(214,224,226,1)"
+            "backgroundColor": "#f8f8f2",
+            "color": "#6272a4"
         },
         {
-            "text": "WORKING!",
-            "backgroundColor": "rgba(1,201,16,1)",
-            "color": "#FFFFFF"
+            "text": "WORKING:",
+            "backgroundColor": "#50fa7b",
+            "color": "#44475a"
         },
         {
-            "text": "REMOVE",
-            "backgroundColor": "rgba(198,0,5,1)",
-            "color": "#FFFFFF"
+            "text": "REMOVE:",
+            "backgroundColor": "#ff5555",
+            "color": "#f8f8f2"
         },
         {
             "text": "CHANGE:",
-            "backgroundColor": "rgba(255,255,13,1)",
+            "backgroundColor": "#f1fa8c",
             "color": "#0f8080"
-        }
-    ],
-    "terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "typescript.referencesCodeLens.showOnAllFunctions": true,
-    "typescript.referencesCodeLens.enabled": true,
-    "azure.resourceFilter": [
-        "0159e9d0-09a0-4edf-96ba-a3deea363c28/1c563928-1088-41a2-a943-7d4d343040c1"
-    ],
-    "python.languageServer": "Jedi",
-    "git.ignoreWindowsGit27Warning": true,
-    "azureFunctions.showCoreToolsWarning": false,
-    "powershell.powerShellAdditionalExePaths": [
+        },
         {
-            "exePath": "C:/Windows/System32/WindowsPowerShell/v1.0/powershell.exe",
-            "versionName": "V1"
+            "text": "ENDING:",
+            "backgroundColor": "#ff79c6",
+            "color": "#f8f8f2"
+        },
+        {
+            "text": "DEBUG:",
+            "backgroundColor": "#bd93f9",
+            "color": "#f1fa8c"
         }
     ],
-    "omnisharp.path": "latest",
-    "omnisharp.useGlobalMono": "always"
+    "git.ignoreWindowsGit27Warning": true,
+    "python.languageServer": "Jedi",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "azureFunctions.showCoreToolsWarning": false
 }

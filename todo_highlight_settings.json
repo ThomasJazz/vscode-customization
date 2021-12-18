@@ -1,0 +1,45 @@
+{
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywords": [
+        {
+            "text": "TODO:",
+            "backgroundColor": "#ffb86c",
+            "color": "#f8f8f2"
+        },
+        {
+            "text": "FIXME:",
+            "backgroundColor": "#8be9fd",
+            "color": "#ff79c6"
+        },
+        {
+            "text": "NOTE:",
+            "backgroundColor": "#f8f8f2",
+            "color": "#6272a4"
+        },
+        {
+            "text": "WORKING:",
+            "backgroundColor": "#50fa7b",
+            "color": "#44475a"
+        },
+        {
+            "text": "REMOVE:",
+            "backgroundColor": "#ff5555",
+            "color": "#f8f8f2"
+        },
+        {
+            "text": "CHANGE:",
+            "backgroundColor": "#f1fa8c",
+            "color": "#0f8080"
+        },
+        {
+            "text": "ENDING:",
+            "backgroundColor": "#ff79c6",
+            "color": "#f8f8f2"
+        },
+        {
+            "text": "DEBUG:",
+            "backgroundColor": "#bd93f9",
+            "color": "#f1fa8c"
+        }
+    ]
+}

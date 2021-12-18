@@ -89,5 +89,13 @@
             "filenamePattern": "*.ipynb"
         }
     ],
-    "azureFunctions.showCoreToolsWarning": false
+    "azureFunctions.showCoreToolsWarning": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [{
+            "scope": "meta.function-call.generic.python",
+            "settings": {
+                "foreground": "#50fa7b"
+            }
+        }]
+    }
 }
